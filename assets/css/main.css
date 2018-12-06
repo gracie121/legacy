@@ -1,10 +1,14 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
 	background: #ffff;
 	
 }
+.picture{
+  Float: left; 
+}
+
   
 .nav-bar__item {
 	color: black;
@@ -124,7 +128,7 @@ body {
 }
 .form__field{
 	min-width: 100%;
-	height: 400px;
+	height: 620px;
 	background-color: #e3e3e3;
 	
 }
@@ -177,6 +181,8 @@ body {
 .myForm label.choice {
 font-size: 0.9em;
 font-weight: normal;
+font-family: 'Noto Serif TC', serif;
+font-family: 'Titillium Web', sans-serif;
 }
 	
 .myForm input[type="text"],
@@ -241,8 +247,15 @@ cursor: pointer;
 .btn-primary{
 	background-color: blue;
 	border-color: blue;
-	margin-left: 20px;
+	margin-left: 650px;
 	margin-right: 92%;
+}
+.btn-secondary{
+	background-color: black;
+	border-color: blue;
+  margin-left: 180px;
+  color:blue;
+	/* margin-right: 92%; */
 }
 .text__main{
 	font-size: 70px;
@@ -349,6 +362,27 @@ a{
 	flex:40% 0 0;
 	
 }
+.fa{
+	display: inline-block;
+	padding-left: 450px;
+	font-size: 1.4rem;
+    font-weight: bold;
+	
+}
+.footer__copyright {
+    display: inline-flex;
+    margin-top: 2.4rem; }
+.footer__copyright__text {
+      font-size: 1.4rem;
+      font-weight: bold;
+       }
+.footer__copyright__text:not(:last-child) {
+        margin-right: 1.2rem; }
+/* .footer__copyright__icon {
+      font-size: 1.4rem;
+	  font-weight: bold; 
+	  margin-left: 80px;}
+ */
 
 
 
